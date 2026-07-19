@@ -1,0 +1,117 @@
+---------------------------------------------------------------------------
+                     Lavornia Castle Rebuilds (DayZ)
+---------------------------------------------------------------------------
+
+README – Lavornia Castle Rebuild Pack
+---------------------------------------------------------------------------
+
+This pack contains all files needed to install and use the Lavornia Castle
+rebuild on a DayZ server. The rebuild includes documentation photos, a JSON
+object placement file, and a DayZ Editor project file.
+
+CONTENTS
+---------------------------------------------------------------------------
+
+Each rebuild folder contains:
+
+• Before photos
+• After photos
+• Lavornia_Castle.json        (server object placement file)
+• Lavornia_Castle.DZE         (DayZ Editor project file)
+
+Folder Structure:
+
+Lavornia_Castle_Rebuild/
+│
+├── Before_Photos/
+├── After_Photos/
+├── Lavornia_Castle.json
+└── Lavornia_Castle.DZE
+
+
+INSTALLATION INSTRUCTIONS
+---------------------------------------------------------------------------
+
+1. PREPARE THE FILES
+
+Copy the following files from the rebuild folder:
+
+• Lavornia_Castle.json
+• Lavornia_Castle.DZE
+
+Keep the folder structure intact for documentation purposes.
+
+
+OPTIONAL – VIEW OR EDIT IN DAYZ EDITOR
+---------------------------------------------------------------------------
+
+If you want to preview or modify the rebuild:
+
+• Place Lavornia_Castle.DZE into your DayZ Editor project folder.
+• Open DayZ Editor.
+• Load the project from the import/open menu.
+• Make any changes you want.
+• Re-export if you create a custom version.
+
+
+2. INSTALL THE .JSON FILE
+---------------------------------------------------------------------------
+
+The .json file controls object placement on the server.
+
+Locate your server’s custom object folder. Common locations include:
+
+• mpmissions/dayzOffline.enoch/custom
+• Or the folder used by your JSON loader mod
+
+Place Lavornia_Castle.json inside that folder.
+
+
+3. RESTART THE SERVER
+---------------------------------------------------------------------------
+
+After installation:
+
+• Restart the server.
+• Join and travel to Lavornia Castle.
+• Confirm the rebuild loads correctly.
+
+
+TROUBLESHOOTING
+---------------------------------------------------------------------------
+
+OBJECTS NOT APPEARING
+• Ensure your JSON loader mod is active.
+• Confirm the .json file is referenced correctly.
+
+OBJECTS MISALIGNED OR FLOATING
+• Verify the rebuild was made for the correct map.
+• Re-open the .DZE file and check coordinates.
+
+SERVER CRASHES
+• Validate the .json file with a JSON validator.
+• Check for unsupported or missing object classnames.
+
+NOTES
+• Photo folders are for documentation only.
+
+
+IMPORTANT NOTICE
+---------------------------------------------------------------------------
+
+I hold NO responsibility for any errors, crashes, conflicts,
+or issues that may occur when using these files.
+
+I do NOT provide support, troubleshooting, or fixes for any
+problems caused by installing or modifying this pack.
+
+Use at your own risk.
+
+
+CREDITS
+---------------------------------------------------------------------------
+
+Rebuild created by Denial253
+https://github.com/Denial253
+
+---------------------------------------------------------------------------
